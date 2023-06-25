@@ -7,7 +7,7 @@
             "type": "process",
             "args": [
                 "build",
-                "${workspaceFolder}/задача2/задача2.csproj",
+                "${workspaceFolder}/семинар1/задача2/задача2.csproj",
                 "/property:GenerateFullPaths=true",
                 "/consoleloggerparameters:NoSummary"
             ],
@@ -19,7 +19,7 @@
             "type": "process",
             "args": [
                 "publish",
-                "${workspaceFolder}/задача2/задача2.csproj",
+                "${workspaceFolder}/семинар1/задача2/задача2.csproj",
                 "/property:GenerateFullPaths=true",
                 "/consoleloggerparameters:NoSummary"
             ],
@@ -33,7 +33,7 @@
                 "watch",
                 "run",
                 "--project",
-                "${workspaceFolder}/задача2/задача2.csproj"
+                "${workspaceFolder}/семинар1/задача2/задача2.csproj"
             ],
             "problemMatcher": "$msCompile"
         }
