@@ -8,13 +8,11 @@ Console.Write("Введите число: ");
 int a = int.Parse(Console.ReadLine());
 Console.WriteLine($"Число {a} четное?");
 
-if(a % 2 == 0)
-{
+if(a % 2 == 0){
     Console.WriteLine("да");
 }
 
-else
-{
+else{
     Console.WriteLine("нет");
 }
 
