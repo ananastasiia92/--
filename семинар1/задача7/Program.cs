@@ -8,7 +8,7 @@ Console.Clear();
 Console.Write("Введите трехзначное число: ");
 int a = int.Parse(Console.ReadLine());
 if (a >= 100 && a < 1000){
-    int result = ((a%100 - a%10)/10) ;
+    int result = ((a%100)%10);
     Console.WriteLine($"Вторая цифра числа {a} является {result}");
 }
 else{
